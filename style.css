@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    background-color: rgba(15, 15, 15, 0.945);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    width: 50vw;
+}
+
+#titulo-you{
+    height: 40%;
+    width: 75%;
+}
+
+#data{
+    color: white;
+    padding: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    animation: data 10s infinite; 
+}
+
+@keyframes data {
+    0%{
+        color: #000000;
+        
+    }
+    30%{
+        letter-spacing: 10%;
+        }
+    85%{
+        letter-spacing: 10%;
+    }
+}
+
+#netflix{
+    color: red;
+}
+
+
+#imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+#homem{
+    position: relative;
+    left: 19%;
+    border-radius: 2%;
+    stroke-opacity: 0.5;
+    animation: homem 10s infinite;
+}
+
+@keyframes homem {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
